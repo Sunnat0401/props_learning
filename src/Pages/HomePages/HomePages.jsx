@@ -7,7 +7,7 @@ const HomePages = () => {
     <Navbar/>
     <div className="continer">
         <div>
-            <Card title="Sunnatjon" age="21" img="hfabfbaflbafas" />
+            <Card title="Sunnatjon" age="21" img="hfabfbaflbafas" wh='200px' border={"3px solid green"} />
         </div>
     </div>
     </>

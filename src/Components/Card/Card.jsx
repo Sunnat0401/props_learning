@@ -1,11 +1,11 @@
 import './Card.css'
-const Card = ({title, age, img}) => {
+const Card = ({title="Sariqjon", age="12", img="Rasmlaaqaaasskfsdsdsdc nmadurlar", radius ="20px", border ="2px dashed aqua", wh="300px" , phoneNumber="+998901249484", color="blue"}) => {
   const styleComp = {
-    borderRadius:"5px" ,
-    border:"2px solid gray" ,
+    borderRadius: radius ,
+    border: border ,
     padding:"10px" ,
-    color:"blue" ,
-    width:"200px",
+    color:color ,
+    width: wh,
     height:"300px",
   }
   return (
@@ -13,6 +13,7 @@ const Card = ({title, age, img}) => {
       <h1>{title}</h1>
       <span>{age}</span>
       <img src={img} alt={img} />
+      <p>{phoneNumber}</p>
     </div>
     )
 }

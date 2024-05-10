@@ -7,7 +7,8 @@ const Service = () => {
     <Navbar/>
     <div className="container">
     <div>
-        <Card title="Avazbek" age={"21"} phoneNumber={"+998901249484"} sevinch={"10px"} munisa={"100px solid red"} wh={"120px"}/>
+    Services
+        <Card title="Avazbek" age={"21"} phoneNumber={"+998901249484"} radius="20px" border="5px dashed red" wh="500px" color='green'/>
     </div>
     </div>
     </>
